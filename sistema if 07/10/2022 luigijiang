@@ -1,0 +1,25 @@
+int x;
+void enterNum(int a){
+    Console.WriteLine("inserisci l' età");
+    //int s=Console.ReadLine();
+    int age = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("l'età' inserita è "+age);
+    return age;
+}
+enterNum(x);
+void condizione(int b){
+    int a;
+    if(a<18 && a>0){
+        Console.WriteLine("minorenne");
+        return a;
+    }
+    else if(a>18){
+        Console.WriteLine("maggiorenne");
+        return a;
+    }
+    else{
+        Console.WriteLine("non classificabile");
+
+    }
+}
+condizione(x);
